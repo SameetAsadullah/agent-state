@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXERCISES = (
+IMPLEMENTATIONS = (
     "search/maze/breadth-first-search",
     "search/maze/depth-first-search",
     "search/maze/greedy-best-first-search",
@@ -36,11 +36,11 @@ def tracked_files() -> list[Path]:
 
 
 def validate_layout(errors: list[str]) -> None:
-    for relative in EXERCISES:
-        exercise = ROOT / relative
-        if not (exercise / "README.md").is_file():
+    for relative in IMPLEMENTATIONS:
+        implementation = ROOT / relative
+        if not (implementation / "README.md").is_file():
             errors.append(f"missing README: {relative}")
-        if not any((exercise / "src").glob("*.py")):
+        if not any((implementation / "src").glob("*.py")):
             errors.append(f"missing Python source: {relative}/src")
 
 
@@ -73,7 +73,7 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    print(f"Validated {len(EXERCISES)} classical AI exercises.")
+    print(f"Validated {len(IMPLEMENTATIONS)} classical AI implementations.")
     return 0
 
 

@@ -2,7 +2,7 @@
 
 A curated collection of foundational artificial-intelligence implementations covering state-space search, adversarial search, constraint satisfaction, local search, and evolutionary computation.
 
-The implementations come from my original learning projects and remain intentionally close to their original form. This repository improves their organization, provenance, and reproducibility without replacing them with polished library implementations.
+The implementations remain intentionally close to their original algorithmic form. This repository provides consistent organization, provenance, and reproducibility without replacing them with framework abstractions.
 
 ## Contents
 
@@ -19,15 +19,15 @@ The implementations come from my original learning projects and remain intention
 ## Repository layout
 
 ```text
-agents/                    Agent-environment exercises
+agents/                    Agent-environment implementations
 adversarial-search/        Minimax-based game agents
-constraint-satisfaction/   Backtracking and CSP exercises
+constraint-satisfaction/   Backtracking and CSP solvers
 evolutionary-computation/  Population-based optimization
 local-search/              Hill climbing and simulated annealing
 search/                    Graph, maze, and puzzle search
 ```
 
-Each exercise contains its original README and source files. Start with the README inside an exercise directory for its inputs and execution instructions.
+Each implementation contains its README and source files. Start with the README inside its directory for inputs and execution instructions.
 
 ## Getting started
 
@@ -39,7 +39,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-Run an exercise from its directory—for example:
+Run an implementation from its directory—for example:
 
 ```bash
 python search/maze/a-star/src/main.py
@@ -49,8 +49,8 @@ Several programs are interactive and prompt for input in the terminal. Their ori
 
 ## Scope
 
-These programs document my progression through classical AI techniques. They prioritize readable demonstrations of the underlying algorithms over framework abstractions or production performance.
+These programs prioritize transparent implementations of the underlying algorithms over framework abstractions or production-oriented optimization.
 
 ## Provenance and licensing
 
-See [PROVENANCE.md](PROVENANCE.md) for the source-repository mapping. Original per-project license files are retained where they existed. No blanket license is applied to exercises that previously had no declared license.
+See [PROVENANCE.md](PROVENANCE.md) for the source-repository mapping. Original per-project license files are retained where they existed. No blanket license is applied to programs that previously had no declared license.
