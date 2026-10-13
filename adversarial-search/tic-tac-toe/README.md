@@ -1,6 +1,6 @@
 <h1 align="center">Tic Tac Toe Using Minimax Algorithm</h1>
 
 ### Description
-Tic-Tac-Toe game coded in Python using Minimax Algorithm. You can choose the player as:
+A Python Tic-Tac-Toe engine that uses minimax for adversarial move selection. The interface supports either player order:
 - X
 - O

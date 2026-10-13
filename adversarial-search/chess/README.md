@@ -1,7 +1,7 @@
 <h1 align="center">Chess Game Agent Using Minimax</h1>
 
 ### Description
-Developed a `Chess Game Agent` using `Minimax Algorithm` in `Python Language`. The [project statement](Project%20Statement.pdf) and [report](Report.pdf) are retained with the implementation. Run `src/src.py` to start the game.
+A Python chess agent that evaluates candidate moves with minimax search. The supporting [problem specification](Project%20Statement.pdf) and [report](Report.pdf) are retained with the implementation. Run `src/src.py` to start the game.
 
 ### Working Screenshots
 <div align="center">

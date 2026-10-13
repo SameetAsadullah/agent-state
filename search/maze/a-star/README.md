@@ -1,4 +1,4 @@
 <h1 align="center">Maze Solver Using A-Star</h1>
 
 ### Description
-Implemented `Maze Solver` using `A-Star (A*)` in `Python Language`. The detailed [project statement](Project%20Statement.pdf) is retained with the implementation.
+A Python maze solver that combines path cost and heuristic distance through A* search. The supporting [problem specification](Project%20Statement.pdf) is retained with the implementation.
