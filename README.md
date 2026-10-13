@@ -8,13 +8,13 @@ The implementations come from my original learning projects and remain intention
 
 | Area | Implementations |
 |---|---|
-| Maze search | Breadth-first, depth-first, greedy best-first, and A* |
-| Graph search | Depth-first search and A* |
-| State-space search | Eight puzzle and vacuum-world agent |
-| Adversarial search | Minimax for tic-tac-toe and chess |
-| Constraint satisfaction | Backtracking exam scheduling |
-| Local search | N-Queens with hill climbing and simulated annealing |
-| Evolutionary computation | Genetic algorithm for knapsack |
+| Maze search | [Breadth-first](search/maze/breadth-first-search), [depth-first](search/maze/depth-first-search), [greedy best-first](search/maze/greedy-best-first-search), and [A*](search/maze/a-star) |
+| Graph search | [Depth-first search](search/graph/depth-first-search) and [A*](search/graph/a-star) |
+| State-space search | [Eight puzzle](search/eight-puzzle) and [vacuum-world agent](agents/vacuum-world) |
+| Adversarial search | Minimax for [tic-tac-toe](adversarial-search/tic-tac-toe) and [chess](adversarial-search/chess) |
+| Constraint satisfaction | [Backtracking exam scheduling](constraint-satisfaction/exam-scheduling) |
+| Local search | N-Queens with [hill climbing](local-search/n-queens-hill-climbing) and [simulated annealing](local-search/n-queens-simulated-annealing) |
+| Evolutionary computation | [Genetic algorithm for knapsack](evolutionary-computation/knapsack-genetic-algorithm) |
 
 ## Repository layout
 
@@ -28,6 +28,24 @@ search/                    Graph, maze, and puzzle search
 ```
 
 Each exercise contains its original README and source files. Start with the README inside an exercise directory for its inputs and execution instructions.
+
+## Getting started
+
+The programs target Python 3 and use NumPy where array operations are needed.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+Run an exercise from its directory—for example:
+
+```bash
+python search/maze/a-star/src/main.py
+```
+
+Several programs are interactive and prompt for input in the terminal. Their original usage notes remain beside the source.
 
 ## Scope
 

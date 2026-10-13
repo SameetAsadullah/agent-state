@@ -1,15 +1,15 @@
 <h1 align="center">Chess Game Agent Using Minimax</h1>
 
 ### Description
-Developed a `Chess Game Agent` using `Minimax Algorithm` in `Python Language`. Detailed `Project Description` can be found [Here](https://github.com/SameetAsadullah/Chess-Game-Agent-Using-Minimax/blob/main/Project%20Statement.pdf). .Detailed `Report` can be found [Here](https://github.com/SameetAsadullah/Chess-Game-Agent-Using-Minimax/blob/main/Report.pdf). Run `src.py` to `Start The Game`.
+Developed a `Chess Game Agent` using `Minimax Algorithm` in `Python Language`. The [project statement](Project%20Statement.pdf) and [report](Report.pdf) are retained with the implementation. Run `src/src.py` to start the game.
 
 ### Working Screenshots
 <div align="center">
-  <img src = "https://github.com/SameetAsadullah/Chess-Game-Agent-Using-Minimax/blob/main/extras/working-ss-1.png" alt = "" width="800px"/>
+  <img src="extras/working-ss-1.png" alt="Chess agent gameplay" width="800px"/>
 </div>
 <br/>
 <div align="center">
-  <img src = "https://github.com/SameetAsadullah/Chess-Game-Agent-Using-Minimax/blob/main/extras/working-ss-2.png" alt = "" width="800px"/>
+  <img src="extras/working-ss-2.png" alt="Chess agent result" width="800px"/>
 </div>
 
 ### Contributors
