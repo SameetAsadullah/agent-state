@@ -1,8 +1,8 @@
 # Classical AI Algorithms
 
-A curated collection of foundational artificial-intelligence implementations covering state-space search, adversarial search, constraint satisfaction, local search, and evolutionary computation.
+Python implementations of state-space search, adversarial search, constraint satisfaction, local search, and evolutionary computation.
 
-The implementations remain intentionally close to their original algorithmic form. This repository provides consistent organization, provenance, and reproducibility without replacing them with framework abstractions.
+The algorithms are organized by method, with usage guidance, source attribution, and reproducible Python setup.
 
 ## Contents
 
@@ -45,12 +45,12 @@ Run an implementation from its directory—for example:
 python search/maze/a-star/src/main.py
 ```
 
-Several programs are interactive and prompt for input in the terminal. Their original usage notes remain beside the source.
+Several programs prompt for input in the terminal. Usage notes are available beside the source.
 
 ## Scope
 
-These programs prioritize transparent implementations of the underlying algorithms over framework abstractions or production-oriented optimization.
+The source focuses on the underlying algorithms and their behavior.
 
 ## Provenance and licensing
 
-See [PROVENANCE.md](PROVENANCE.md) for the source-repository mapping. Original per-project license files are retained where they existed. No blanket license is applied to programs that previously had no declared license.
+See [PROVENANCE.md](PROVENANCE.md) for source history and licensing. Existing component licenses are retained; no blanket license is applied to programs that previously had no declared license.

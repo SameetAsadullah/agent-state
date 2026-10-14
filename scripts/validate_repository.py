@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate collection structure and Python syntax without running interactive demos."""
+"""Validate source structure and Python syntax without running interactive programs."""
 
 from __future__ import annotations
 
