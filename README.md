@@ -1,4 +1,4 @@
-# Classical AI Algorithms
+# Agent State
 
 Python implementations of state-space search, adversarial search, constraint satisfaction, local search, and evolutionary computation.
 
